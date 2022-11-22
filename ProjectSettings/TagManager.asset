@@ -41,9 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Platform
+  - name: Foreground
     uniqueID: 3278523843
+    locked: 0
+  - name: Props
+    uniqueID: 2406771207
     locked: 0
   - name: Player
     uniqueID: 449585853
+    locked: 0
+  - name: UI
+    uniqueID: 2884580209
     locked: 0
