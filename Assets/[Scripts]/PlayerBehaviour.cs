@@ -36,8 +36,8 @@ public class PlayerBehaviour : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        var hit = Physics2D.OverlapCircle(groundPoint.position, groundRadius, groundLayerMask);
-        isGrounded = hit;
+        
+        isGrounded = Physics2D.OverlapCircle(groundPoint.position, groundRadius, groundLayerMask);
 
         Move();
         Jump();

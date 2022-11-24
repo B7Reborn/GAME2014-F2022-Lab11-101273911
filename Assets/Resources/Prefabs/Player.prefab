@@ -66,7 +66,7 @@ Transform:
   m_Children:
   - {fileID: 3660383904714284107}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3660383906596392292
 SpriteRenderer:
@@ -201,3 +201,5 @@ MonoBehaviour:
   isGrounded: 0
   animator: {fileID: 0}
   playerAnimationState: 0
+  leftStick: {fileID: 0}
+  verticalThreshold: 0.6
