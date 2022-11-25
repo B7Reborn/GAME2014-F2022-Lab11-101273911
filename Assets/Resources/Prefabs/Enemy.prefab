@@ -28,7 +28,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6692004753115379461}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.518458, y: -1.6994505, z: -20.127907}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -167,7 +167,7 @@ MonoBehaviour:
   groundRadius: 0.5
   groundLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 448
   isGroundAhead: 0
   isObstacleAhead: 0
   isGrounded: 0
@@ -227,7 +227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6692004754734005436}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.062, y: -0.772, z: 0}
+  m_LocalPosition: {x: -1.062, y: -0.857, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

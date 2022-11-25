@@ -66,7 +66,7 @@ Transform:
   m_Children:
   - {fileID: 3660383904714284107}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3660383906596392292
 SpriteRenderer:
@@ -191,13 +191,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalForce: 50
   horizontalSpeed: 20
-  verticalForce: 15
+  verticalForce: 16.5
   airFactor: 0.3
   groundPoint: {fileID: 3660383904714284107}
   groundRadius: 0.5
   groundLayerMask:
     serializedVersion: 2
-    m_Bits: 192
+    m_Bits: 448
   isGrounded: 0
   animator: {fileID: 0}
   playerAnimationState: 0
