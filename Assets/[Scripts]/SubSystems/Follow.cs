@@ -12,7 +12,7 @@ public struct Target
 }
 
 
-
+[ExecuteInEditMode]
 public class Follow : MonoBehaviour
 {
     public Target target;
