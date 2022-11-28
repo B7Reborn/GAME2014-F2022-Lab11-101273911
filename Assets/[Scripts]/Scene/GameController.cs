@@ -15,12 +15,6 @@ public class GameController : MonoBehaviour
 
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            FindObjectOfType<HealthBarController>().TakeDamage(20);
-        }
-    }
+    
 
 }

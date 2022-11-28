@@ -11,7 +11,17 @@ public class DeathPlaneController : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
         {
-            Respawn(other.gameObject);
+            var player = other.gameObject.GetComponent<PlayerBehaviour>();
+            player.lives.LoseLife();
+            player.health.ResetHealth();
+
+            if (player.lives.value > 0)
+            {
+                Respawn(other.gameObject);
+
+                // TODO: Play the "death" sound
+            }
+            
         }
     }
 
