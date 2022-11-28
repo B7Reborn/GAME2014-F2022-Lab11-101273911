@@ -7,5 +7,6 @@ public enum Sound
     JUMP,
     HURT,
     DEATH,
-    MUSIC
+    MAIN_MUSIC,
+    END_MUSIC
 }

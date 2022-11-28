@@ -13,6 +13,7 @@ public class GameController : MonoBehaviour
 
         onScreenControls.SetActive(Application.isMobilePlatform);
 
+        FindObjectOfType<SoundManager>().PlayMusic(Sound.MAIN_MUSIC);
     }
 
     

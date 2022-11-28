@@ -23,6 +23,7 @@ public class SoundManager : MonoBehaviour
         audioClips.Add(Resources.Load<AudioClip>("Audio/hurt-sound"));
         audioClips.Add(Resources.Load<AudioClip>("Audio/death-sound"));
         audioClips.Add(Resources.Load<AudioClip>("Audio/main-soundtrack"));
+        audioClips.Add(Resources.Load<AudioClip>("Audio/end-soundtrack"));
     }
 
     public void PlaySoundFX(Channel channel, Sound sound)
@@ -31,11 +32,13 @@ public class SoundManager : MonoBehaviour
         channels[(int)channel].Play();
     }
 
-    public void PlayMusic()
+    public void PlayMusic(Sound sound)
     {
-        channels[(int)Channel.MUSIC].clip = audioClips[(int)Sound.MUSIC];
+        channels[(int)Channel.MUSIC].clip = audioClips[(int)sound];
         channels[(int)Channel.MUSIC].volume = 0.25f;
         channels[(int)Channel.MUSIC].loop = true;
         channels[(int)Channel.MUSIC].Play();
     }
+
+
 }
