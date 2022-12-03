@@ -18,7 +18,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        FindObjectOfType<SoundManager>().PlayMusic(Sound.MAIN_MUSIC);
+        //FindObjectOfType<SoundManager>().PlayMusic(Sound.MAIN_MUSIC);
     }
 
 }
