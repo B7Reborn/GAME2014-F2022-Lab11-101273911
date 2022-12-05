@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
@@ -25,7 +24,7 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        //FindObjectOfType<SoundManager>().PlayMusic(Sound.MAIN_MUSIC);
+        FindObjectOfType<SoundManager>().PlayMusic(Sound.MAIN_MUSIC);
     }
 
     void Update()
