@@ -14,18 +14,18 @@ public class GameController : MonoBehaviour
         onScreenControls.SetActive(Application.isMobilePlatform);
 
         miniMap = GameObject.Find("Minimap");
-
-        if (miniMap)
-        {
-            miniMap.SetActive(false);
-        }
-        
-        BulletManager.Instance().BuildBulletPool();
     }
 
     void Start()
     {
         FindObjectOfType<SoundManager>().PlayMusic(Sound.MAIN_MUSIC);
+
+        if (miniMap)
+        {
+            miniMap.SetActive(false);
+        }
+
+        BulletManager.Instance().BuildBulletPool();
     }
 
     void Update()
