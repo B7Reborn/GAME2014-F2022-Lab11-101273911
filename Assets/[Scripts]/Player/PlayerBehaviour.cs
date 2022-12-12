@@ -206,5 +206,14 @@ public class PlayerBehaviour : MonoBehaviour
             ShakeCamera();
             
         }
+
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            health.TakeDamage(10);
+
+            soundManager.PlaySoundFX(Channel.PLAYER_HURT_FX, Sound.HURT);
+            ShakeCamera();
+
+        }
     }
 }
