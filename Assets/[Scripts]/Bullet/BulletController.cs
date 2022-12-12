@@ -14,7 +14,7 @@ public class BulletController : MonoBehaviour
     void Awake()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
-        Activate();
+        
     }
 
     public void Activate()
@@ -49,7 +49,8 @@ public class BulletController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") ||
             other.gameObject.CompareTag("Ground") ||
-            other.gameObject.CompareTag("Prop"))
+            other.gameObject.CompareTag("Prop") ||
+            other.gameObject.CompareTag("Platform"))
         {
             DestroyThis();
         }

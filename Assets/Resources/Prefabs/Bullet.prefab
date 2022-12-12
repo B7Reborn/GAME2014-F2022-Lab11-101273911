@@ -138,5 +138,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: {x: 0, y: 0}
   rigidbody2D: {fileID: 0}
-  force: 10
+  force: 20
   offset: {x: 0, y: 2, z: 0}
